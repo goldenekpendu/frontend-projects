@@ -29,7 +29,7 @@ body {
   // background-color: yellow;
 
   .container {
-    width: 350px;
+    max-width: 350px;
     height: fit-content;
     background-color: hsl(0, 0, 100%);
     display: flex;
@@ -60,4 +60,9 @@ body {
       padding-bottom: 15px;
     }
   }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
